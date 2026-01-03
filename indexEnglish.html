@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Marcelo Telles</title>
+    <style>
+        /* Reset and General Settings */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.4;
+            color: #333;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .page {
+            background-color: #fff;
+            width: 210mm;
+            height: 297mm;
+            margin: 0 auto;
+            padding: 15mm 20mm;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 18px;
+        }
+
+        h1 {
+            font-size: 26px;
+            text-transform: uppercase;
+            font-weight: 800;
+            letter-spacing: 1px;
+            margin-bottom: 4px;
+            color: #000;
+            font-family: 'Georgia', 'Garamond', serif;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 6px;
+            font-weight: 500;
+        }
+
+        .contact-info {
+            font-size: 12px;
+            color: #666;
+        }
+
+        .contact-info a {
+            color: #666;
+            text-decoration: none;
+        }
+
+        .contact-info span {
+            margin: 0 4px;
+            color: #ccc;
+        }
+
+        /* Sections */
+        .section {
+            margin-bottom: 16px;
+        }
+
+        .section-title {
+            font-size: 13px;
+            text-transform: uppercase;
+            font-weight: 800;
+            border-bottom: 1px solid #000;
+            padding-bottom: 3px;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
+        }
+
+        /* Summary */
+        .summary-text {
+            font-size: 12px;
+            text-align: justify;
+            line-height: 1.4;
+        }
+
+        /* Skills */
+        .skills-list {
+            font-size: 12px;
+            line-height: 1.5;
+        }
+
+        .skill-category {
+            font-weight: 700;
+            color: #000;
+        }
+
+        .skills-list > div {
+            margin-bottom: 4px;
+        }
+
+        /* Experience */
+        .job-block {
+            margin-bottom: 14px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 4px;
+        }
+
+        .company {
+            font-weight: 800;
+            font-size: 13px;
+        }
+
+        .role {
+            font-style: italic;
+            font-weight: normal;
+            font-size: 13px;
+        }
+
+        .date {
+            font-size: 11px;
+            color: #666;
+            font-style: italic;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 18px;
+            margin-top: 4px;
+        }
+
+        li {
+            font-size: 12px;
+            margin-bottom: 2px;
+            color: #444;
+            line-height: 1.4;
+        }
+
+        /* Education */
+        .education-block {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 4px;
+            font-size: 12px;
+        }
+
+        .degree {
+            font-weight: 700;
+        }
+
+        .school {
+            font-style: italic;
+        }
+
+        @media print {
+            body {
+                background-color: #fff;
+                margin: 0;
+                padding: 0;
+            }
+            .page {
+                box-shadow: none;
+                margin: 0;
+                width: 210mm;
+                height: 297mm;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page">
+        <header>
+            <h1>MARCELO TELLES</h1>
+            <div class="subtitle">Junior Test Automation Engineer | Computer Engineering Student</div>
+            <div class="contact-info">
+                marcelosftelles@gmail.com <span>|</span>
+                +55 81 9 9405-5048 <span>|</span>
+                Recife - PE, Brazil <span>|</span>
+                linkedin.com/in/marcelosftelles
+            </div>
+        </header>
+
+        <section class="section">
+            <div class="section-title">Professional Summary</div>
+            <p class="summary-text">
+                Junior Quality Assurance (QA) Engineer and Computer Engineering student focused on test automation and AI innovation. Practical experience in creating automated testing frameworks (Cypress, Playwright), API validation, and implementing agile solutions. Solid background in infrastructure support and network administration, combining technical hardware knowledge with modern software development.
+            </p>
+        </section>
+
+        <section class="section">
+            <div class="section-title">Skills</div>
+            <div class="skills-list">
+                <div>
+                    <span class="skill-category">QA & Automation:</span> Cypress, Playwright, Postman, Gherkin, Tosca Commander, Azure DevOps, API Testing, Regression Testing.
+                </div>
+                <div>
+                    <span class="skill-category">AI & Data:</span> Prompt Engineering, AI-assisted Script Optimization, AI Agent Training Course (Accenture).
+                </div>
+                <div>
+                    <span class="skill-category">Development:</span> JavaScript, Python, C/C++, SQL, HTML, CSS, Electron, Git/GitHub.
+                </div>
+                <div>
+                    <span class="skill-category">Infrastructure & Tools:</span> Google Cloud, General Electronics, Hardware Maintenance, Networking, Photoshop, UX Experience.
+                </div>
+                <div>
+                    <span class="skill-category">Languages:</span> English (Intermediate B1), Spanish (Beginner).
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-title">Professional Experience</div>
+
+            <div class="job-block">
+                <div class="job-header">
+                    <div>
+                        <span class="company">Accenture Brazil</span> <span class="role">- Junior Test Automation Engineer</span>
+                    </div>
+                    <span class="date">Current</span>
+                </div>
+                <ul>
+                    <li>Creation of automated test scenarios using <strong>Cypress</strong> and <strong>Playwright</strong>, applying automation best practices.</li>
+                    <li>Development of advanced automation in <strong>Postman (Runner)</strong> for dynamic token capture and test data setup, optimizing API testing workflow.</li>
+                    <li>Implementation of automated API tests, validating business rules, contracts, and HTTP responses.</li>
+                    <li>Collaboration with multidisciplinary teams using <strong>Azure DevOps</strong> for task management and bug tracking.</li>
+                    <li>Application of <strong>Prompt Engineering</strong> and <strong>AI for optimization</strong> of automated scripts, improving code readability and maintenance.</li>
+                    <li>Execution of exploratory manual tests, participation in PRBs (Problem Review Boards) and change management processes, with preparation of technical documentation and test evidence.</li>
+                </ul>
+            </div>
+
+            <div class="job-block">
+                <div class="job-header">
+                    <div>
+                        <span class="company">AkzoNobel</span> <span class="role">- IT Technician</span>
+                    </div>
+                    <span class="date">2025 (Temporary)</span>
+                </div>
+                <ul>
+                    <li>Server administration and performance analysis, ensuring network stability and security.</li>
+                    <li>Configuration and support for data collectors (Windows Mobile/Wavelink) and physical access system maintenance.</li>
+                    <li>Technical support to internal employees for hardware and system troubleshooting.</li>
+                </ul>
+            </div>
+
+            <div class="job-block">
+                <div class="job-header">
+                    <div>
+                        <span class="company">Secretary of Social Defense</span> <span class="role">- Technical Support Intern</span>
+                    </div>
+                    <span class="date">2023 - 2024</span>
+                </div>
+                <ul>
+                    <li>Technical ticket handling and registration via ITSM, ensuring demand traceability.</li>
+                    <li>Assembly and configuration of work environments (Operating Systems and peripherals).</li>
+                    <li>Assistance in building infrastructure maintenance and basic electronics guidance for students.</li>
+                </ul>
+            </div>
+
+             <div class="job-block">
+                <div class="job-header">
+                    <div>
+                        <span class="company">CHAAMA TECNET</span> <span class="role">- IT Technician</span>
+                    </div>
+                    <span class="date">2021 - 2022</span>
+                </div>
+                <ul>
+                    <li>Fault diagnosis and technical/electronic repairs on notebooks, desktops, and smartphones (SMD soldering).</li>
+                    <li>Customer service and in-person technical support focused on quick resolution of demands.</li>
+                    <li>Preventive and corrective maintenance of electronic equipment, extending product lifecycle.</li>
+                    <li>Installation and configuration of operating systems and software on devices.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-title">Education</div>
+            
+            <div class="education-block">
+                <div><span class="degree">Bachelor's in Computer Engineering</span>, <span class="school">UNINASSAU</span></div>
+                <div>2021 - 2026 (Expected)</div>
+            </div>
+
+            <div class="education-block">
+                <div><span class="degree">Quality Engineer Training</span>, <span class="school">Accenture Academy</span></div>
+                <div>Jul 2025 - Aug 2025</div>
+            </div>
+
+            <div class="education-block">
+                <div><span class="degree">Data Analysis</span>, <span class="school">SoulCode Academy</span></div>
+                <div>Mar 2024 - May 2024</div>
+            </div>
+             <div class="education-block">
+                <div><span class="degree">English Course</span>, <span class="school">MINDS</span></div>
+                <div>2025 - 2027</div>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>
